@@ -1,0 +1,132 @@
+div.pad {
+  border-radius: 18px;
+ /* background: hsl(51, 100%, 74%);*/ /*Yellow*/
+  background: hsl(95, 25%, 71%); /*Green*/
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3.title {
+	position: absolute;
+	top:5px;
+	left:30px;
+	color: hsl(119, 65%, 96%);
+}
+
+div.todo-list {
+	position: absolute;
+	top: 60px;
+	left: 45px;
+	overflow: auto;
+	height: 400px;
+	width: 450px;
+}
+
+table.tlist, td {
+	color: hsl(304, 19%, 60%); 
+	font-size: 25px;
+}
+
+td.checkbox {
+	border-collapse: separate;
+	height: 20px;
+	width: 50px;
+	padding: 1px;
+	}
+
+div.divbox {
+	border-color: hsl(304, 19%, 60%); 
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 7px;
+	border-collapse: separate;
+	height: 25px;
+	width: 25px;
+	padding: 1px;
+	background-color: hsl(95, 25%, 71%);
+	}
+
+
+
+div.adder {
+	position: absolute;
+	top: 465px;
+	left: 35px;
+}
+
+input[type=text] {
+	height: 40px;
+  	width: 300px;
+  	margin: 8px 0;
+  	border-radius: 7px;
+	box-sizing: border-box;
+  	display: inline;
+	border: 1px solid #ccc;
+	padding: 12px 20px;
+	color: hsl(304, 10%, 68%);
+	font-weight: 900;
+}
+
+input[type=submit].sub {
+ 	width: 70;
+	height: 40;
+  	background-color: hsl(19, 43%, 63%);
+	color: white;
+ 	margin: 8px 0;
+  	border: 1px;
+  	border-radius: 4px;
+	display: inline;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+div.tab {
+	position: relative;
+	height: 55px;
+	width: 100%;
+	top: 550px;
+	display: inline-block;
+	text-align: center;
+}
+
+div.Label {
+	height: 25px;
+	width: 50px;
+	position:relative;
+	top: 5;
+	padding: 5 35 5 35;
+	display: inline-block;
+	text-decoration: none;
+	color: #B5A4B4;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+.strike {
+	text-decoration: line-through;
+}
+
+.todos {
+	padding: 5px;
+}
+
+.dones{
+	padding: 5px;
+} 
+
+span.counter {
+	padding: 10px;
+	background-color: #D7E4CE;
+	border-radius: 100%;
+	margin: 10px;
+}
+
